@@ -12,9 +12,9 @@ gulp.task('server', function(){
 
 gulp.task('watch', function(){
 	gulp.watch([
-		'app/index.html',
-		'app/js/main.js',
-		'app/css/main.css'
+		'app/*.html',
+		'app/js/**/*.js',
+		'app/css/**/*.css'
 		]) .on('change' , browserSync.reload);
 });
 

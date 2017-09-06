@@ -1,3 +1,84 @@
-h1{
-	color:blue;
+
+html{height: 100%}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
 }
+a {
+	color: #d38484;
+	text-decoration: none;
+}
+a:hover{
+	color: #efdea0;
+}
+
+a, a:hover{
+	-webkit-transition: all.6s ease; 
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease; 
+}
+.clear{
+	clear: both;
+}
+/* Style for header*/
+header{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-bottom: 2px solid silver;
+
+
+}
+.headerDiv{
+	display: inline-block;
+
+}
+.logo{
+	width: 40%;
+	float: left;
+
+}
+.logo a{
+	color: #939393;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+} 
+.logo span{
+	color: #e36464;
+}
+.menuHead{
+	width: 25%;
+	float: left;
+}
+.menuHead span{
+	padding: 5px;
+	background-color: #c8c8c8;
+	border-radius: 5px;
+	color: #fff;
+}
+.menuHead span:hover{
+	background-color: #e7e7e7;
+	
+}
+
+.regAuth{
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+.regAuth a{
+	color: #e36464;
+}
+
+
+
+
+	

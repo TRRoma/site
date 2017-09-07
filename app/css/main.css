@@ -1,9 +1,10 @@
 
 html{height: 100%}
 body{
+
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
+	background: url(../img/vintage-concrete.png) repeat;
 	color: #333;
 	font-family: "Segoe UI", Arial, sans-serif;
 	font-size: 1em;
@@ -34,6 +35,7 @@ a, a:hover{
 	clear: both;
 }
 /* Style for header*/
+
 header{
 	width: 98%;
 	float: left;
@@ -41,6 +43,7 @@ header{
 	background-color: #fafafa;
 	border-bottom: 2px solid silver;
 	margin-bottom: 20px;
+	position: fixed;
 
 }
 .headerDiv{
@@ -98,6 +101,7 @@ header{
 	float: left;
 }
 .bigArticle{
+	margin-top: 10%;
 	width: 80%;
 	margin-left: 10%;
 	background-color: #f6f6f6;
@@ -143,6 +147,7 @@ p{
 	background-color: #a2a2a2;
 }
 .rightCol{
+	margin-top: 10%;
 	width: 20%;
 	float: left;
 }

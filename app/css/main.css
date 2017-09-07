@@ -9,6 +9,12 @@ body{
 	font-size: 1em;
 	line-height: 135%;
 }
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /*ie8*/
+}
+
 a {
 	color: #d38484;
 	text-decoration: none;
@@ -34,7 +40,7 @@ header{
 	padding: 1%;
 	background-color: #fafafa;
 	border-bottom: 2px solid silver;
-
+	margin-bottom: 20px;
 
 }
 .headerDiv{
@@ -78,6 +84,108 @@ header{
 	color: #e36464;
 }
 
+/*Style for document*/
+
+.wrapper{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+
+}
+.leftCol{
+	width: 70%;
+	margin-right: 10%;
+	float: left;
+}
+.bigArticle{
+	width: 80%;
+	margin-left: 10%;
+	background-color: #f6f6f6;
+	padding: 1%;
+}
+.bigArticle img .article img{
+	width: 100%;
+	float: left;	
+	margin-bottom: 10px;
+}
+h2{
+	font-weight: normal;
+	font-size: 1.4em;
+	color: #636363;
+	font-family: Comic Sans MS, sans-serif;
+}
+p{
+	width: 90%;
+	margin-left: 5%;
+}
+.bigArticle div{
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #878787;
+	width: 10%;
+	text-align: center;
+	margin-top: 10px;
+}
+.bigArticle div:hover{
+	background-color: #a2a2a2;
+}
+.article div{
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #878787;
+	width: 10%;
+	text-align: center;
+	margin-top: 10px;
+}
+.article div:hover{
+	background-color: #a2a2a2;
+}
+.rightCol{
+	width: 20%;
+	float: left;
+}
+.rightCol img{
+	box-shadow: 10px 10px 5px #ccc;
+			-moz-box-shadow: 10px 10px 5px #ccc;
+			-webkit-box-shadow: 10px 10px 5px #ccc;
+			-khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.article{
+	width: 80%;
+	margin-left: 10%; 
+	background-color: #f6f6f6;
+	padding: 1%;
+	float: left;
+}
+
+/*style for footer*/
+
+footer{
+	width: 98%;
+	padding: 1%;
+	float: left;
+	background-color: #fafafa;
+	border-top: 2px solid silver;
+	margin-top: 10px;
+}
+.social{
+	float: left;
+	width: 50%;
+}
+.social img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 5px;	
+}
+.rights{
+	float: right;
+	width: 50%;
+	font-size: 0.9em;
+	text-align: right;
+}
 
 
 
